@@ -1,0 +1,126 @@
+{
+    "@@README_1": "en.arb-filen er en skabelon til andre filer",
+    "@@README_2": "For andre sprog er poster, der starter med @ og @@, ikke nødvendige, undtagen @@locale",
+    "@@README_3": "Lande-specifikke sprog (f.eks. 'en_GB') har brug for et eksisterende fallback-sprog (f.eks. 'en')",
+
+
+    "@@locale": "da",
+    "@locale_desc": {"description": "Danish [da_DK]"},
+    "locale_desc": "Dansk",
+    "locale_system": "System",
+
+
+    "btn_boot": "Tænde",
+    "btn_arrest": "Slukke",
+    "btn_auth": "Genautoriser",
+    "btn_dev_settings": "Udviklerindstillinger",
+    "btn_switch_on": "Til",
+    "btn_switch_off": "Fra",
+
+
+    "status_subtext_winver_10": "Windows 10 registreret",
+    "status_subtext_winver_older": "Ældre version af Windows registreret",
+
+
+    "status_unsupported": "WSA ikke installeret",
+    "status_unsupported_desc": "{windowsVersion} og WSA blev ikke fundet. Denne applikation afhænger af WSA, som kun understøttes officielt på Windows 11",
+    "status_unauthorized": "Ikke autoriseret",
+    "status_unauthorized_desc": "Fejlfindingsautorisationen er blevet afvist eller tilbagekaldt; tryk på den første knap, vælg 'tillad altid' og klik derefter på 'tillad'; hvis der ikke vises et pop op-vindue, skal du åbne udviklerindstillingerne samt slå 'USB-fejlfinding' fra og til igen",
+    "status_missing": "WSA ikke installeret",
+    "status_missing_desc": "WSA blev ikke fundet. Denne applikation afhænger af WSA; installer Windows-subsystem til Android (eller Amazon Appstore) fra Microsoft Store",
+    "status_unknown": "Opretter forbindelse",
+    "status_unknown_desc": "Venter på, at forbindelsen til WSA etableres...",
+    "status_starting": "Starter",
+    "status_starting_desc": "WSA starter, vent venligst...",
+    "status_arresting": "Stopper",
+    "status_arresting_desc": "WSA slukker, vent venligst...",
+    "status_arrested": "Stoppet",
+    "status_arrested_desc": "WSA er slukket",
+    "status_offline": "Offline",
+    "status_offline_desc": "Der kunne ikke oprettes forbindelse til WSA: Udviklertilstand og USB-fejlfinding er slået fra, eller der er angivet en forkert port",
+    "status_disconnected": "Afbrudt",
+    "status_disconnected_desc": "Der kunne ikke oprettes forbindelse til WSA af ukendte årsager",
+    "status_connected": "Forbundet",
+    "status_connected_desc": "Forbundet til WSA med succes, og alt er i orden",
+
+
+    "screen_title": "Android-pakkeinstallationshåndtering",
+    "screen_settings": "Indstillinger",
+
+
+    "wsa_manage": "Android-styring",
+    "wsa_manage_app": "Administrer applikationer",
+    "wsa_manage_settings": "Administrer indstillinger",
+
+
+    "settings_port": "WSA-port",
+    "settings_ip": "WSA IP-adresse",
+    "settings_autostart": "Automatisk start af WSA før installation",
+    "settings_timeout": "Tidsudløb ({seconds} sekunder)",
+    "settings_language": "Sprog",
+    "settings_option_generic_system": "System",
+    "settings_option_generic_disabled": "Deaktiveret",
+
+
+    "theme_mode": "Tematilstand",
+    "theme_mode_dark": "Mørk",
+    "theme_mode_light": "Lys",
+    "theme_mica": "Vinduesgennemsigtighed",
+    "theme_mica_full": "Fuld",
+    "theme_mica_partial": "Delvis",
+    "theme_icon_adaptive": "Adaptiv ikonform",
+    "theme_icon_adaptive_squircle": "Supercirkel",
+    "theme_icon_adaptive_circle": "Cirkel",
+    "theme_icon_adaptive_rounded_square": "Afrundet firkant",
+
+
+    "installer_message": "Vil du installere denne applikation?",
+    "installer_info_version": "Version: {appVersion}",
+    "installer_info_version_change": "Version: {appVersionOld} => {appVersionNew}",
+    "installer_info_package": "Pakke: {appPackage}",
+    "installer_info_minosver": "Minimumskrav til OS: Android {minAndroidVer} (API {minSdkVer})",
+    "installer_installing": "Installerer applikationen {appTitle}...",
+    "installer_installed": "Applikationen {appTitle} blev installeret",
+    "installer_fail": "Applikationen {appTitle} blev ikke installeret",
+    "installer_error_nomsg": "Installationen mislykkedes, men der opstod ingen fejl",
+    "installer_error_timeout": "Installationen timede ud; klienten er holdt op med at vente, men den kan stadig køre i baggrunden...",
+    "installer_warning_dirty": "Manuel oprydning af filer i mappen ”{tempDir}” er nødvendig",
+    "installer_btn_starting": "Starter...",
+    "installer_btn_loading": "Indlæser...",
+    "installer_btn_cancel": "Annuller",
+    "installer_btn_install": "Installer",
+    "installer_btn_reinstall": "Geninstaller",
+    "installer_btn_update": "Opdater",
+    "installer_btn_downgrade": "Nedgrader (usikkert)",
+    "installer_btn_dismiss": "Afslut",
+    "installer_btn_open": "Åbn appen",
+    "installer_btn_checkbox_shortcut": "Opret skrivebordsgenvej",
+
+    "installer_select_hints": "Vælg venligst en målenhed til installationen...",
+    "wired_device_none_title": "Ingen kablede enheder tilsluttet",
+    "wired_device_none_content": "Tilslut en Android-enhed via USB, og sørg for, at USB-fejlfinding er aktiveret.",
+    "wired_device_one_title": "Kablet enhed tilsluttet",
+    "wired_device_one_content": "Enhedsnavn: {deviceName}\nEnheds-ID: {deviceId}",
+    "wired_device_multiple_title": "Flere kablede enheder tilsluttet",
+    "wired_device_multiple_content": "Der er flere enheder tilsluttet. Vælg målenheden under installationen:\n{deviceList}",
+
+
+    "android_permission_none": "Ingen tilladelser krævet",
+    "android_permission_admin": "Administrer enhed som administrator",
+    "android_permission_admin_brick": "Deaktiver eller nulstil enheden",
+    "android_permission_admin_lock": "Lås enheden eksternt",
+    "android_permission_storage": "Filer og medier",
+    "android_permission_microphone": "Mikrofon",
+    "android_permission_camera": "Kamera",
+    "android_permission_location": "Placering",
+    "android_permission_phone": "Telefon",
+    "android_permission_call_log": "Opkaldslister",
+    "android_permission_sms": "Beskeder",
+    "android_permission_contacts": "Kontakter",
+    "android_permission_calendar": "Kalender",
+    "android_permission_activity_recognition": "Fysisk aktivitet",
+    "android_permission_sensors": "Enhedssensorer",
+    "android_permission_sensors_body": "Kropssensorer",
+    "android_permission_nearby_devices": "Søg efter enheder i nærheden",
+    "android_permission_read_packages": "Hent installerede pakker"
+}

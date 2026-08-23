@@ -1,0 +1,156 @@
+{
+    "@@README_1": "The en.arb file is a template for other files",
+    "@@README_2": "For other languages, entries starting with @ and @@ are not needed, except @@locale",
+    "@@README_3": "Country-specific locales (eg. 'en_GB') need a fallback locale (eg. 'en') to exist",
+
+
+    "@@locale": "en",
+    "@locale_desc": {"description": "English (US) [en_US]"},
+    "locale_desc": "English",
+    "@locale_system": {"description": "Describes the system locale"},
+    "locale_system": "System",
+
+
+    "btn_boot": "Turn on",
+    "btn_arrest": "Turn off",
+    "btn_auth": "Reauthenticate",
+    "btn_dev_settings": "Developer options",
+    "btn_switch_on": "On",
+    "btn_switch_off": "Off",
+
+
+    "@status_subtext_winver_10": {"description": "Only used inside 'status_unsupported_desc', modify taking this in consideration"},
+    "status_subtext_winver_10": "Windows 10",
+    "@status_subtext_winver_older": {"description": "Only used inside 'status_unsupported_desc', modify taking this in consideration"},
+    "status_subtext_winver_older": "Older Windows Version",
+
+
+    "status_unsupported": "WSA not installed",
+    "status_unsupported_desc": "{windowsVersion} detected and WSA not found; this application depends on WSA, which is only officially supported on Windows 11",
+    "@status_unsupported_desc" : {"placeholders": {"windowsVersion": {"type": "String"}}},
+    "status_unauthorized": "Unauthorized",
+    "status_unauthorized_desc": "Debugging authorization was dismissed or revoked; press the first button, select 'always allow', then click on 'allow'; If no popup appears, open developer options and disable and re-enable 'USB debugging'",
+    "status_missing": "WSA not installed",
+    "status_missing_desc": "WSA not found; this application depends on WSA, please install Windows Subsystem for Android (or the Amazon Appstore) from the Microsoft Store",
+    "status_unknown": "Connecting",
+    "status_unknown_desc": "Waiting for a WSA connection to be established...",
+    "status_starting": "Starting",
+    "status_starting_desc": "WSA is starting, please stand by...",
+    "status_arresting": "Stopping",
+    "status_arresting_desc": "WSA is turning off, please wait...",
+    "status_arrested": "Arrested",
+    "status_arrested_desc": "WSA is turned off",
+    "status_offline": "Offline",
+    "status_offline_desc": "Could not establish a connection with WSA: either developer mode and USB debugging are disabled or a wrong port is specified",
+    "status_disconnected": "Disconnected",
+    "status_disconnected_desc": "A WSA connection could not be enstablished for unknown reasons",
+    "status_connected": "Connected",
+    "status_connected_desc": "Successfully connected to WSA, all systems go",
+
+
+    "screen_title": "Android Sideloading Pacman",
+    "screen_settings": "Settings",
+
+
+    "wsa_manage": "Android Management",
+    "wsa_manage_app": "Manage Applications",
+    "wsa_manage_settings": "Manage Settings",
+
+    
+    "settings_port": "WSA Port",
+    "settings_ip": "WSA IP address",
+    "settings_autostart": "Autostart WSA before installation",
+    "@settings_timeout" : {"placeholders": {"seconds": {"type": "String"}}},
+    "settings_timeout": "Timeout ({seconds} seconds)",
+    "settings_language": "Language",
+    "settings_option_generic_system": "System",
+    "settings_option_generic_disabled": "Disabled",
+
+
+    "theme_mode": "Theme mode",
+    "theme_mode_dark": "Dark",
+    "theme_mode_light": "Light",
+    "theme_mica": "Window transparency",
+    "theme_mica_full": "Full",
+    "theme_mica_partial": "Partial",
+    "theme_icon_adaptive": "Adaptive icons Shape",
+    "theme_icon_adaptive_squircle": "Squircle",
+    "theme_icon_adaptive_circle": "Circle",
+    "theme_icon_adaptive_rounded_square": "Rounded Square",
+
+
+    "installer_message": "Do you want to install this application?",
+    "installer_info_version": "Version: {appVersion}",
+    "@installer_info_version" : {"placeholders": {"appVersion": {"type": "String"}}},
+    "installer_info_version_change": "Version: {appVersionOld} => {appVersionNew}",
+    "@installer_info_version_change" : {"placeholders": {"appVersionOld": {"type": "String"}, "appVersionNew": {"type": "String"}}},
+    "installer_info_package": "Package: {appPackage}",
+    "@installer_info_package" : {"placeholders": {"appPackage": {"type": "String"}}},
+    "installer_info_minosver": "Minimum OS Requirements: Android {minAndroidVer} (API {minSdkVer})",
+    "@installer_info_minosver" : {"placeholders": {"minAndroidVer": {"type": "String"}, "minSdkVer": {"type": "int"}}},
+    "installer_installing": "Installing application {appTitle}...",
+    "@installer_installing" : {"placeholders": {"appTitle": {"type": "String"}}},
+    "installer_installed": "The application {appTitle} was successfully installed",
+    "@installer_installed" : {"placeholders": {"appTitle": {"type": "String"}}},
+    "installer_fail": "The application {appTitle} was not installed",
+    "@installer_fail" : {"placeholders": {"appTitle": {"type": "String"}}},
+    "installer_error_nomsg": "The installation has failed, but no error was thrown",
+    "installer_error_timeout": "Installation timed out, client has stopped waiting, but it may still be in progress in the background...",
+    "@installer_warning_dirty" : {"placeholders": {"tempDir": {"type": "String"}}},
+    "installer_warning_dirty": "A manual file cleanup is needed in directory “{tempDir}”",
+    "installer_btn_starting": "Starting...",
+    "installer_btn_loading": "Loading...",
+    "installer_btn_cancel": "Cancel",
+    "installer_btn_install": "Install",
+    "installer_btn_reinstall": "Reinstall",
+    "installer_btn_update": "Update",
+    "installer_btn_downgrade": "Downgrade (unsafe)",
+    "installer_btn_dismiss": "Dismiss",
+    "installer_btn_open": "Open app",
+    "installer_btn_checkbox_shortcut": "Create desktop shortcut",
+
+    "installer_select_hints": "Please select a target device for installation...",
+    "wired_device_none_title": "No wired devices connected",
+    "wired_device_none_content": "Please connect an Android device via USB and ensure USB debugging is enabled.",
+    "wired_device_one_title": "Wired device connected",
+    "wired_device_one_content": "Device Name: {deviceName}\nDevice ID: {deviceId}",
+    "@wired_device_one_content": {
+        "placeholders": {
+            "deviceName": {
+                "type": "String"
+            },
+            "deviceId": {
+                "type": "String"
+            }
+        }
+    },
+    "wired_device_multiple_title": "Multiple wired devices connected",
+    "wired_device_multiple_content": "There are multiple devices connected. Please select the target device during installation:\n{deviceList}",
+    "@wired_device_multiple_content": {
+        "placeholders": {
+            "deviceList": {
+                "type": "String"
+            }
+        }
+    },
+
+
+    "android_permission_none": "No permissions required",
+    "android_permission_admin": "Manage device as administrator",
+    "android_permission_admin_brick": "Remotely disable or reset device",
+    "android_permission_admin_lock": "Remotely lock device",
+    "android_permission_storage": "Files and media",
+    "android_permission_microphone": "Microphone",
+    "android_permission_camera": "Camera",
+    "android_permission_location": "Location",
+    "android_permission_phone": "Phone",
+    "android_permission_call_log": "Call logs",
+    "android_permission_sms": "Messages",
+    "android_permission_contacts": "Contacts",
+    "android_permission_calendar": "Calendar",
+    "android_permission_activity_recognition": "Physical activity",
+    "android_permission_sensors": "Device sensors",
+    "android_permission_sensors_body": "Body sensors",
+    "android_permission_nearby_devices": "Locate nearby devices",
+    "android_permission_read_packages": "Acquire installed packages"
+}

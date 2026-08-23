@@ -1,0 +1,126 @@
+{
+    "@@README_1": "Το αρχείο en.arb είναι ένα πρότυπο για άλλα αρχεία",
+    "@@README_2": "Για άλλες γλώσσες, δεν απαιτούνται καταχωρίσεις που ξεκινάνε με @ και @@, εκτός από το @@locale",
+    "@@README_3": "Οι γλώσσες συγκεκριμένων χωρών (π.χ. 'en_GB') απαιτούν μια υπάρχουσα γλώσσα εφεδρείας (π.χ. 'en')",
+
+
+    "@@locale": "el",
+    "@locale_desc": {"description": "Greek [el_GR]"},
+    "locale_desc": "Ελληνικά",
+    "locale_system": "Σύστημα",
+
+
+    "btn_boot": "Ανάβω",
+    "btn_arrest": "Κλείνω",
+    "btn_auth": "Επανεπαλήθευση",
+    "btn_dev_settings": "Επιλογές προγραμματιστή",
+    "btn_switch_on": "Ενεργό",
+    "btn_switch_off": "Ανενεργό",
+
+
+    "status_subtext_winver_10": "Εντοπίστηκαν Windows 10",
+    "status_subtext_winver_older": "Εντοπίστηκε παλαιότερη έκδοση των Windows",
+
+
+    "status_unsupported": "Το WSA δεν είναι εγκατεστημένο",
+    "status_unsupported_desc": "{windowsVersion} και το WSA δεν βρέθηκε. Αυτή η εφαρμογή εξαρτάται από το WSA, το οποίο υποστηρίζεται επίσημα μόνο στα Windows 11",
+    "status_unauthorized": "Μη εξουσιοδοτημένο",
+    "status_unauthorized_desc": "Η εξουσιοδότηση εντοπισμού σφαλμάτων απορρίφθηκε ή ανακλήθηκε. Πιέστε το πρώτο κουμπί, επιλέξτε 'να επιτρέπεται πάντα' και στη συνέχεια κάντε κλικ στο 'να επιτραπεί'. Αν δεν εμφανιστεί αναδυόμενο παράθυρο, ανοίξτε τις επιλογές προγραμματιστή, απενεργοποιήστε και ενεργοποιήστε ξανά τον 'εντοπισμό σφαλμάτων USB'",
+    "status_missing": "Το WSA δεν είναι εγκατεστημένο",
+    "status_missing_desc": "Το WSA δεν βρέθηκε. Αυτή η εφαρμογή εξαρτάται από το WSA, εγκαταστήστε το Υποσύστημα Windows για Android (ή το Amazon Appstore) από το Microsoft Store",
+    "status_unknown": "Σύνδεση",
+    "status_unknown_desc": "Αναμονή για δημιουργία σύνδεσης με το WSA...",
+    "status_starting": "Εκκίνηση",
+    "status_starting_desc": "Το WSA εκκινείται, παρακαλώ περιμένετε...",
+    "status_arresting": "Τερματισμός",
+    "status_arresting_desc": "Το WSA τερματίζεται, παρακαλώ περιμένετε...",
+    "status_arrested": "Διακόπηκε",
+    "status_arrested_desc": "Το WSA είναι απενεργοποιημένο",
+    "status_offline": "Εκτός σύνδεσης",
+    "status_offline_desc": "Αποτυχία δημιουργίας σύνδεσης με το WSA: η λειτουργία προγραμματιστή και ο εντοπισμός σφαλμάτων USB είναι απενεργοποιημένα ή έχει οριστεί εσφαλμένη θύρα",
+    "status_disconnected": "Αποσυνδέθηκε",
+    "status_disconnected_desc": "Αποτυχία δημιουργίας σύνδεσης με το WSA για άγνωστους λόγους",
+    "status_connected": "Συνδέθηκε",
+    "status_connected_desc": "Επιτυχής σύνδεση με το WSA, όλα λειτουργούν κανονικά",
+
+
+    "screen_title": "Διαχειριστής εγκατάστασης πακέτων Android",
+    "screen_settings": "Ρυθμίσεις",
+
+
+    "wsa_manage": "Διαχείριση Android",
+    "wsa_manage_app": "Διαχείριση εφαρμογών",
+    "wsa_manage_settings": "Διαχείριση ρυθμίσεων",
+
+
+    "settings_port": "Θύρα WSA",
+    "settings_ip": "Διεύθυνση IP του WSA",
+    "settings_autostart": "Αυτόματη εκκίνηση του WSA πριν την εγκατάσταση",
+    "settings_timeout": "Χρονικό όριο ({seconds} δευτερόλεπτα)",
+    "settings_language": "Γλώσσα",
+    "settings_option_generic_system": "Σύστημα",
+    "settings_option_generic_disabled": "Απενεργοποιημένο",
+
+
+    "theme_mode": "Λειτουργία θέματος",
+    "theme_mode_dark": "Σκούρο",
+    "theme_mode_light": "Φωτεινό",
+    "theme_mica": "Διαφάνεια παραθύρου",
+    "theme_mica_full": "Πλήρης",
+    "theme_mica_partial": "Μερική",
+    "theme_icon_adaptive": "Σχήμα προσαρμοστικών εικονιδίων",
+    "theme_icon_adaptive_squircle": "Σκουίρκλ",
+    "theme_icon_adaptive_circle": "Κύκλος",
+    "theme_icon_adaptive_rounded_square": "Στρογγυλεμένο τετράγωνο",
+
+
+    "installer_message": "Θέλετε να εγκαταστήσετε αυτήν την εφαρμογή;",
+    "installer_info_version": "Έκδοση: {appVersion}",
+    "installer_info_version_change": "Έκδοση: {appVersionOld} => {appVersionNew}",
+    "installer_info_package": "Πακέτο: {appPackage}",
+    "installer_info_minosver": "Ελάχιστες απαιτήσεις Λ.Σ.: Android {minAndroidVer} (API {minSdkVer})",
+    "installer_installing": "Εγκατάσταση της εφαρμογής {appTitle}...",
+    "installer_installed": "Η εφαρμογή {appTitle} εγκαταστάθηκε επιτυχώς",
+    "installer_fail": "Η εφαρμογή {appTitle} δεν εγκαταστάθηκε",
+    "installer_error_nomsg": "Η εγκατάσταση απέτυχε, αλλά δεν παρουσιάστηκε κάποιο σφάλμα",
+    "installer_error_timeout": "Η εγκατάσταση υπερέβη το χρονικό όριο, ο πελάτης σταμάτησε να περιμένει, αλλά μπορεί να συνεχίζεται στο παρασκήνιο...",
+    "installer_warning_dirty": "Απαιτείται μη αυτόματος καθαρισμός αρχείων στον κατάλογο «{tempDir}»",
+    "installer_btn_starting": "Εκκίνηση...",
+    "installer_btn_loading": "Φόρτωση...",
+    "installer_btn_cancel": "Ακύρωση",
+    "installer_btn_install": "Εγκατάσταση",
+    "installer_btn_reinstall": "Επανεγκατάσταση",
+    "installer_btn_update": "Ενημέρωση",
+    "installer_btn_downgrade": "Υποβάθμιση (μη ασφαλές)",
+    "installer_btn_dismiss": "Τέλος",
+    "installer_btn_open": "Άνοιγμα εφαρμογής",
+    "installer_btn_checkbox_shortcut": "Δημιουργία συντόμευσης στην επιφάνεια εργασίας",
+
+    "installer_select_hints": "Παρακαλώ επιλέξτε μια συσκευή προορισμού για την εγκατάσταση...",
+    "wired_device_none_title": "Δεν υπάρχουν συνδεδεμένες ενσύρματες συσκευές",
+    "wired_device_none_content": "Συνδέστε μια συσκευή Android μέσω USB και βεβαιωθείτε ότι ο εντοπισμός σφαλμάτων USB είναι ενεργοποιημένος.",
+    "wired_device_one_title": "Συνδέθηκε ενσύρματη συσκευή",
+    "wired_device_one_content": "Όνομα συσκευής: {deviceName}\nID συσκευής: {deviceId}",
+    "wired_device_multiple_title": "Συνδέθηκαν πολλαπλές ενσύρματες συσκευές",
+    "wired_device_multiple_content": "Υπάρχουν πολλές συνδεδεμένες συσκευές. Επιλέξτε τη συσκευή προορισμού κατά την εγκατάσταση:\n{deviceList}",
+
+
+    "android_permission_none": "Δεν απαιτούνται δικαιώματα",
+    "android_permission_admin": "Διαχείριση συσκευής ως διαχειριστής",
+    "android_permission_admin_brick": "Απενεργοποίηση ή επαναφορά συσκευής",
+    "android_permission_admin_lock": "Απομακρυσμένο κλείδωμα συσκευής",
+    "android_permission_storage": "Αρχεία και πολυμέσα",
+    "android_permission_microphone": "Μικρόφωνο",
+    "android_permission_camera": "Κάμερα",
+    "android_permission_location": "Τοποθεσία",
+    "android_permission_phone": "Τηλέφωνο",
+    "android_permission_call_log": "Αρχείο κλήσεων",
+    "android_permission_sms": "Μηνύματα",
+    "android_permission_contacts": "Επαφές",
+    "android_permission_calendar": "Ημερολόγιο",
+    "android_permission_activity_recognition": "Σωματική δραστηριότητα",
+    "android_permission_sensors": "Αισθητήρες συσκευής",
+    "android_permission_sensors_body": "Αισθητήρες σώματος",
+    "android_permission_nearby_devices": "Εντοπισμός κοντινών συσκευών",
+    "android_permission_read_packages": "Λήψη εγκατεστημένων πακέτων"
+}
